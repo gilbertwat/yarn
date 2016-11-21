@@ -70,8 +70,13 @@ export async function run(
       default: 'index.js',
     },
     {
-      key: 'repository',
-      question: 'git repository',
+      key: 'repository.type',
+      question: 'type of repository',
+      default: 'git',
+    },
+    {
+      key: 'repository.url',
+      question: 'repository',
       default: gitUrl,
     },
     {
